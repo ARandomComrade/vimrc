@@ -40,5 +40,3 @@ jobs:
 
       - name: run linter gvimrc nvim
         run: vint -s --enable-neovim ./gvimrc
-
-
