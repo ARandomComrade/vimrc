@@ -36,7 +36,7 @@ set -o vi
 
 ## Csh/Tcsh (Mainly Tcsh though...)
 Append to ```.cshrc``` or ```.tcshrc```. You can also run it in a session. (Same way it's done in Zsh).
-```sh
+```tcsh
 bindkey -v
 ```
 
