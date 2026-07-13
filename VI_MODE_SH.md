@@ -28,6 +28,12 @@ Append to your ```.bashrc``` or you can run it in a session.
 set -o vi
 ```
 
+## Fish
+Add this to ```~/.config/fish/config.fish```. You can also run this in a session.
+```fish
+set -g fish_key_bindings fish_vi_key_bindings
+```
+
 ## Ksh88/Ksh93
 Append to ```.kshrc``` or ```.profile``` or you can run it in a session. (Same way it's done in bash).
 ```sh
@@ -44,12 +50,6 @@ bindkey -v
 Append to ```.zshrc```. FYI, Zsh asks you if you want to set this during the **zsh-newuser-install** wizard. This is here for completeness plus in case you missed it. You can also run this in a session.
 ```sh
 bindkey -v
-```
-
-## Fish
-Add this to ```~/.config/fish/config.fish```. You can also run this in a session.
-```fish
-set -g fish_key_bindings fish_vi_key_bindings
 ```
 
 ## PowerShell
