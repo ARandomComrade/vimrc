@@ -28,6 +28,12 @@ Append to your ```.bashrc``` or you can run it in a session.
 set -o vi
 ```
 
+## Zsh
+Append to ```.zshrc```. FYI, Zsh asks you if you want to set this during the **zsh-newuser-install** wizard. This is here for completeness plus in case you missed it. You can also run this in a session.
+```sh
+bindkey -v
+```
+
 ## Fish
 Add this to ```~/.config/fish/config.fish```. You can also run this in a session.
 ```fish
@@ -43,12 +49,6 @@ set -o vi
 ## Csh/Tcsh (Mainly Tcsh though...)
 Append to ```.cshrc``` or ```.tcshrc```. You can also run it in a session. (Same way it's done in Zsh).
 ```tcsh
-bindkey -v
-```
-
-## Zsh
-Append to ```.zshrc```. FYI, Zsh asks you if you want to set this during the **zsh-newuser-install** wizard. This is here for completeness plus in case you missed it. You can also run this in a session.
-```sh
 bindkey -v
 ```
 
